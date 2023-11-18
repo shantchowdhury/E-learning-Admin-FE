@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts  */
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  src: local("Poppins"), url("/assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: local("Poppins"), url("/assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: local("Poppins"), url("/assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  src: local("Poppins"), url("/assets/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: local("Inter"), url("/assets/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: local("Inter"), url("/assets/fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: local("Inter"), url("/assets/fonts/Inter-Bold.ttf");
+}
+
+:root {
+  --body-color: #f8f8f8;
+  --sidebar-dark: #1b2e35;
+  --dark: #171717;
+  --gray: #9ea4aa;
+  --light-green: #4ed28b;
+  --dark-green: #2e9987;
+  --indigo: #832ff2;
+  --blue: #6371e0;
+  --pink: #ff4493;
+  --dark-orange: #c78626;
+  --light-orange: #e5af5d;
+  --youtube: #dc0034;
+  --twitter: #64aeea;
+  --facebook: #405995;
+  --linkedin: #2775ae;
+}
+
+body {
+  background: var(--body-color);
+}
+
+#sidebar::-webkit-scrollbar, body::-webkit-scrollbar {
+  width: 0;
+}
+
+
+/* Phone number input  */
+.PhoneInputInput {
+  background: transparent;
+  outline: none;
+}
+
+/* React Quill  */
+.ql-container.ql-snow {
+  height: 500px;
+  border-radius: 0 0 15px 15px;
+}
+
+.notificationQuill .ql-container.ql-snow{
+  height: 200px;
+}
+
+.ql-toolbar.ql-snow{
+  border-radius: 15px 15px 0 0;
+}
+
+.ql-container.ql-snow, 
+.ql-toolbar.ql-snow {
+    background: #F5F5F5 !important;
+    border: 1px solid #80808029;
+}
+
+/* Swiper  */
+.swiper-wrapper {
+  padding: 0 0 80px 0;
+}
+
+.bg-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(99 113 224/var(--tw-bg-opacity));
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+
+.w-screen {
+  width: 100vw;
+}
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+body{
+  color:black
+}
